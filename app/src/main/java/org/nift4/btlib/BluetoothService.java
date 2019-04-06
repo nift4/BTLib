@@ -163,16 +163,16 @@ public class BluetoothService
 				}
 			});
     }
-	public boolean newMessageAvailable()
+	public synchronized boolean newMessageAvailable()
 	{
 		return mQueue.peek() != null;
 	}
-	public BtData read()
+	public synchronized BtData read()
 	{
 		return mQueue.poll();
 	}
 
-	public int getNoneReason()
+	public synchronized int getNoneReason()
 	{
 		return mNoneReason;
 		
