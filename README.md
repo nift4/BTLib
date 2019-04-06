@@ -1,4 +1,4 @@
 # BTLib
 Android bluetooth. Easy.
-## Doca
+## Docs
 In the Wiki.
