@@ -1,3 +1,3 @@
 # Contributing
-By sending a pull request, you'll eagre to the following:
+By sending a issue/pull request, you'll agree to the following:
 - Code of Conduct
