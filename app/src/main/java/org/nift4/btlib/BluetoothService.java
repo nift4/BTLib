@@ -629,6 +629,13 @@ public class BluetoothService
 
 	public static class AboutActivity extends Activity
 	{
-
+		@Override
+		protected void onCreate(Bundle savedInstanceState)
+		{
+			super.onCreate(savedInstanceState);
+			TextView tv = new TextView(this);
+			tv.setText("BTLib by nift4");
+			setContentView(tv);
+		}
 	}
 }

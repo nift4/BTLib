@@ -15,6 +15,12 @@
 			android:theme="@android:style/Theme.Holo.Dialog"
             android:label="@string/select_device" >
         </activity>
+		<activity
+			android:name=".BluetoothService$AboutActivity"
+			android:theme="@android:style/Theme.Holo.Dialog"
+			android:label="Bluetooth"
+			>
+		</activity>
     </application>
 
 </manifest>
