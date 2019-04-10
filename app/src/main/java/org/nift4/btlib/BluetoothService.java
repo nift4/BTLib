@@ -634,7 +634,7 @@ public class BluetoothService
 		{
 			super.onCreate(savedInstanceState);
 			TextView tv = new TextView(this);
-			tv.setText("This Application's Bluetooth Services are powered by BTLib\n\n\nLicense:\nOriginal (Android Example BluetoothChat): Copyright (C) 2014 The Android Open Source Project\nModified Parts: Copyright (C) 2019 nift4\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.");
+			tv.setText("This Application's Bluetooth Services are powered by BTLib\n\nhttps://www.github.com/nift4/BTLib\n\n\nLicense:\nOriginal (Android Example BluetoothChat): Copyright (C) 2014 The Android Open Source Project\nModified Parts: Copyright (C) 2019 nift4\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.");
 			setContentView(tv);
 		}
 	}
